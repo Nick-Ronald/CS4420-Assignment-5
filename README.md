@@ -1,6 +1,6 @@
 # Report
 
-## Compilation Instructions
+# Compilation Instructions
 In order to compile this program, use the following command:  
 
 `g++ cpu_scheduler.cc`  
@@ -21,44 +21,44 @@ Notes:
 -  The scheduling algorithm must be one of the three listed (not case sensitive)
   -  For Round Robin (RR), the quantum time is required. Otherwise, no need to include it
 
-### Test Cases
+# Test Cases
 
-**Test Case 1:**
-PID	Arrival (ms)	Burst (ms)
-1	  0	            3
-2	  1	            5
-3	  2	            6
-4	  3	            1
-5   4             4
+**Test Case 1:**  
+PID	Arrival (ms)	Burst (ms)  
+1	  0	            3  
+2	  1	            5  
+3	  2	            6  
+4	  3	            1  
+5   4             4  
 RR Quantum Time: 2  
 
-Results:
-!<img width="1552" height="558" alt="image" src="https://github.com/user-attachments/assets/2d446a48-0b94-4922-8546-89cec47d971a" />
-!<img width="1642" height="1084" alt="image" src="https://github.com/user-attachments/assets/075491ee-276f-4777-af18-71b0ded2f1e2" />
+Results:  
+<img width="1552" height="558" alt="image" src="https://github.com/user-attachments/assets/2d446a48-0b94-4922-8546-89cec47d971a" />
+<img width="1642" height="1084" alt="image" src="https://github.com/user-attachments/assets/075491ee-276f-4777-af18-71b0ded2f1e2" />
 
-**Test Case 2:**
-PID	Arrival (ms)	Burst (ms)
-1	  0	            4
-2	  15	          3 
-3	  16	          2 
-4	  30	          1 
+**Test Case 2:**  
+PID	Arrival (ms)	Burst (ms)  
+1	  0	            4  
+2	  15	          3   
+3	  16	          2  
+4	  30	          1   
 RR Quantum Time: 2  
 
-Results:
+Results:  
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/c22bc843-7106-4b0d-b6e5-2590236bc305" />
 
 
-**Test Case 3:**
-PID	Arrival (ms)	Burst (ms)
-5	  0	            8
-1	  0	            4
-4	  10	          4
-3	  10	          2
-2	  0	            2
+**Test Case 3:**  
+PID	Arrival (ms)	Burst (ms)  
+5	  0	            8  
+1	  0	            4  
+4	  10	          4  
+3	  10	          2  
+2	  0	            2  
 RR Quantum Time: 3  
 
-Results:
-!<img width="1598" height="552" alt="image" src="https://github.com/user-attachments/assets/15dad081-8d7f-4ffe-ae18-fcc5999c84eb" />
-!<img width="1672" height="958" alt="image" src="https://github.com/user-attachments/assets/9bf6b977-2e47-4b28-b989-f7cfebbfe7c0" />
+Results:  
+<img width="1598" height="552" alt="image" src="https://github.com/user-attachments/assets/15dad081-8d7f-4ffe-ae18-fcc5999c84eb" />
+<img width="1672" height="958" alt="image" src="https://github.com/user-attachments/assets/9bf6b977-2e47-4b28-b989-f7cfebbfe7c0" />
 
 
