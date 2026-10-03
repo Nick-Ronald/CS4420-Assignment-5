@@ -24,7 +24,7 @@ Notes:
 # Test Cases 
 
 **Test Case 1:**  
-PID	Arrival (ms)	Burst (ms)  
+*PID*	*Arrival*	*Burst*  
 1	  0	            3  
 2	  1	            5  
 3	  2	            6  
@@ -39,7 +39,7 @@ Results:
 <img width="1642" height="1084" alt="image" src="https://github.com/user-attachments/assets/075491ee-276f-4777-af18-71b0ded2f1e2" />
 
 **Test Case 2:**  
-PID	Arrival (ms)	Burst (ms)  
+*PID*	*Arrival*	*Burst* 
 1	  0	            4  
 2	  15	          3   
 3	  16	          2  
@@ -53,7 +53,7 @@ Results:
 
 
 **Test Case 3:**  
-PID	Arrival (ms)	Burst (ms)  
+*PID*	*Arrival* *Burst*  
 5	  0	            8  
 1	  0	            4  
 4	  10	          4  
