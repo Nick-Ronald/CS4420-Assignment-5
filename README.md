@@ -21,7 +21,7 @@ Notes:
 -  The scheduling algorithm must be one of the three listed (not case sensitive)
   -  For Round Robin (RR), the quantum time is required. Otherwise, no need to include it
 
-# Test Cases
+# Test Cases 
 
 **Test Case 1:**  
 PID	Arrival (ms)	Burst (ms)  
@@ -31,6 +31,8 @@ PID	Arrival (ms)	Burst (ms)
 4	  3	            1  
 5   4             4  
 RR Quantum Time: 2  
+
+This test case is the set of processes pulled directly from our previous homework, making it a good starting point to ensure the basic functionality of the program  
 
 Results:  
 <img width="1552" height="558" alt="image" src="https://github.com/user-attachments/assets/2d446a48-0b94-4922-8546-89cec47d971a" />
@@ -44,6 +46,8 @@ PID	Arrival (ms)	Burst (ms)
 4	  30	          1   
 RR Quantum Time: 2  
 
+This test case involves a lot of idle time where processes are around, but they have not arrived yet. This helps simulate how the scheduling algorithm acts during idle time and proves that it does not break because it happened to run into idle time  
+
 Results:  
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/c22bc843-7106-4b0d-b6e5-2590236bc305" />
 
@@ -56,6 +60,8 @@ PID	Arrival (ms)	Burst (ms)
 3	  10	          2  
 2	  0	            2  
 RR Quantum Time: 3  
+
+This test case has multiple processes arriving at the same time and also fundamentally reorders the way processes are loaded. In the end, without any priority or difference in arrival time, the first processes loaded will take precedence. It ensures that the simulator works (especially in regards to SJF and RR) when multiple processes arrive at the same time  
 
 Results:  
 <img width="1598" height="552" alt="image" src="https://github.com/user-attachments/assets/15dad081-8d7f-4ffe-ae18-fcc5999c84eb" />
